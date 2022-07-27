@@ -24,7 +24,7 @@ module.exports = function (req, dest, fnDestFilename, opts = {}) {
             rs.fieldname = fieldname
             rs.filename = filename
             rs.encoding = encoding
-            rs.mimetype = mimetype
+            rs.mimetype = mimeType
 
             resolve(rs)
           })
